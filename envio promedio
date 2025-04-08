@@ -1,0 +1,2 @@
+envio_promedio = df.groupby('Tienda')['Tiempo_envio_días'].mean().sort_values()
+print(envio_promedio)
