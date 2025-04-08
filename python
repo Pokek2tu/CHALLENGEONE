@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Carga el archivo CSV (ajusta el nombre si es diferente)
+df = pd.read_csv('alura_stores.csv')
+
+# Vista general de los datos
+print(df.head())
+print(df.info())
