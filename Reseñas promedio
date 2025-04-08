@@ -1,0 +1,2 @@
+reseñas_por_tienda = df.groupby('Tienda')['Reseñas'].mean().sort_values()
+print(reseñas_por_tienda)
