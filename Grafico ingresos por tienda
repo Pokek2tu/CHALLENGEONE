@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+ingresos_por_tienda.plot(kind='bar', color='skyblue')
+plt.title('Ingresos Totales por Tienda')
+plt.xlabel('Tienda')
+plt.ylabel('Ingresos')
+plt.grid(True)
+plt.show()
