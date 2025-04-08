@@ -1,0 +1,2 @@
+ingresos_por_tienda = df.groupby('Tienda')['Ingresos'].sum().sort_values()
+print(ingresos_por_tienda)
