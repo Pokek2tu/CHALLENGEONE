@@ -1,0 +1,6 @@
+plt.scatter(df['Productos_vendidos'], df['Reseñas'], alpha=0.5)
+plt.title('Productos Vendidos vs Reseñas')
+plt.xlabel('Productos vendidos')
+plt.ylabel('Reseñas')
+plt.grid(True)
+plt.show()
