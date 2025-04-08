@@ -1,0 +1,5 @@
+categorias = df['Categoría'].value_counts()
+categorias.plot(kind='pie', autopct='%1.1f%%', startangle=90)
+plt.title('Distribución de Categorías Vendidas')
+plt.ylabel('')
+plt.show()
